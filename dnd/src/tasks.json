@@ -1,0 +1,14 @@
+{
+  "todo": [
+    { "id": 1, "title": "CSS", "description": "Learn how to centre a div" },
+    { "id": 2, "title": "Linked", "description": "Post detailed logs of hardware projects on LinkedIN" }
+  ],
+  "ongoing": [
+    { "id": 3, "title": "DishaAI", "description": "Code up the unique tasks app for DishaAI internship" }
+  ],
+  "completed": [
+    { "id": 4, "title": "Sem 4", "description": "Study for endsems and complete the projects" },
+    { "id": 5, "title": "IE", "description": "Finish the audio amplifier circuit using BJTs and mosfets" }
+  ]
+}
+
