@@ -1,5 +1,8 @@
 # DishaAI Assignment (Tasks Application)
 
+## Deployed Link (added on 2025-05-20 00:06)
+- https://dishaai2023043.netlify.app/
+
 ## How to run?
 
 ```
