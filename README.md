@@ -4,10 +4,10 @@
 
 ```
 cd dnd/
-npm run dev
+npm run preview
 ```
 
-- Now go to `https://localhost:5173` (by default vite chooses port 5173 to host the website)
+- Now go to `https://localhost:4173` (by default vite chooses port 4173 to host the website)
 
 ## Progress
 - Frontend part fully completed
