@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+body {
+  background-color: #111;
+  font-family: "JetBrainsMono NFM";
+}
+
+.header {
+  background-color: #151515;
+  box-shadow: 0px -10px 20px #000;
+  text-shadow: 3px 3px 3px #000;
+}
+
+p,
+h1,
+h2,
+h3 {
+  color: #dadada;
+}
+
+p {
+  color: #777777;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #111;
+  padding: 20px;
+  margin: 40px;
+  box-shadow:
+    0px 0px 5px #000,
+    -3px -3px 5px #222;
+  box-shadow:
+    6px 6px 12px #0d0d0d,
+    -6px -6px 12px #151515;
+  transition:
+    box-shadow 0.2s ease-in-out,
+    background-color 0.2s ease-in-out;
+}
+
+.checkbox {
+  background: #222;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 2px solid #333;
+}
+
+.checkbox:checked {
+  background: #7da;
+}
+
+.card-contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container:hover {
+  box-shadow:
+    15px 15px 30px #090909,
+    -15px -15px 30px #1a1a1a;
+  box-shadow:
+    11px 11px 22px #0b0b0b,
+    -11px -11px 22px #171717;
+  background-color: #101010;
+}
